@@ -1,30 +1,5 @@
 <template>
   <div>
-    <v-toolbar
-        flat>
-      <v-btn
-          color="primary"
-          dark
-          class="mb-2"
-          v-on="on"
-      >
-        Documentation
-      </v-btn>
-      <v-divider
-          class="mx-4"
-          inset
-          vertical
-      ></v-divider>
-      <v-btn
-          color="primary"
-          dark
-          class="mb-2"
-          v-on="on"
-      >
-        Méthode Agile
-      </v-btn>
-
-    </v-toolbar>
     <v-data-table
         :headers="headers"
         :items="desserts"
