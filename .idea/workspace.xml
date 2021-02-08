@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e552fd2c-6649-4d9a-90ef-04ba6c37dd98" name="Default Changelist" comment="" />
+    <list default="true" id="e552fd2c-6649-4d9a-90ef-04ba6c37dd98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/chunk-vendors.dff687dd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/documentation.0921c000.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.0ab7e263.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.0ab7e263.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/chunk-vendors.af26ff1a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/chunk-vendors.af26ff1a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/documentation.0e5d8586.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/documentation.0e5d8586.js.map" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
