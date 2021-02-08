@@ -13,6 +13,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:alanquentin85/vue-app-2.git master:ghpages
+git push -f git@github.com:alanquentin85/vue-app-2.git master:gh-pages
 
 cd -
