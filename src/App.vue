@@ -44,6 +44,8 @@
               inset
               vertical
           ></v-divider>
+          <router-link to="/agile">
+
           <v-btn
               color="Dark"
               dark
@@ -52,6 +54,7 @@
           >
             Méthode Agile
           </v-btn>
+          </router-link>
         </div>
       </v-toolbar>
       <router-view/>
