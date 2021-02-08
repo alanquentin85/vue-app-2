@@ -1,0 +1,19 @@
+Index: deploy.sh
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#!/usr/bin/env sh\r\n\r\n# abort on errors\r\nset -e\r\n\r\n# build\r\nnpm run build\r\n\r\n# navigate into the build output directory\r\ncd dist\r\n\r\ngit init\r\ngit add -A\r\ngit commit -m 'deploy'\r\n\r\ngit push -f git@github.com:alanquentin85/vue-app-2.git master:ghpages\r\n\r\ncd -
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/deploy.sh b/deploy.sh
+--- a/deploy.sh	(revision a8f88904f7364444c5fe44cf808a7c115a9efd01)
++++ b/deploy.sh	(date 1612773391236)
+@@ -13,6 +13,6 @@
+ git add -A
+ git commit -m 'deploy'
+ 
+-git push -f git@github.com:alanquentin85/vue-app-2.git master:ghpages
++git push -f git@github.com:alanquentin85/vue-app-2.git master:gh-pages
+ 
+ cd -
+\ No newline at end of file
