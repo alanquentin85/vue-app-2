@@ -16,7 +16,7 @@
         <div id="nav">
           <router-link to="/">
             <v-btn
-                color="primary"
+                color="Dark"
                 dark
                 class="mb-2"
                 v-on="on"
@@ -31,7 +31,7 @@
           ></v-divider>
           <router-link to="/documentation">
             <v-btn
-                color="primary"
+                color="Dark"
                 dark
                 class="mb-2"
                 v-on="on"
@@ -45,7 +45,7 @@
               vertical
           ></v-divider>
           <v-btn
-              color="primary"
+              color="Dark"
               dark
               class="mb-2"
               v-on="on"

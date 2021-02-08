@@ -23,7 +23,7 @@
           >
             <template v-slot:activator="{ on, attrs }">
               <v-btn
-                  color="primary"
+                  color="dark"
                   dark
                   class="mb-2"
                   v-bind="attrs"
@@ -97,14 +97,14 @@
               <v-card-actions>
                 <v-spacer></v-spacer>
                 <v-btn
-                    color="blue darken-1"
+                    color="Dark"
                     text
                     @click="close"
                 >
                   Annuler
                 </v-btn>
                 <v-btn
-                    color="blue darken-1"
+                    color="Dark"
                     text
                     @click="save"
                 >
@@ -118,8 +118,8 @@
               <v-card-title class="headline">Voulez vous supprimer ce projet ?</v-card-title>
               <v-card-actions>
                 <v-spacer></v-spacer>
-                <v-btn color="blue darken-1" text @click="closeDelete">Annuler</v-btn>
-                <v-btn color="blue darken-1" text @click="deleteItemConfirm">Valider</v-btn>
+                <v-btn color="Dark" text @click="closeDelete">Annuler</v-btn>
+                <v-btn color="Dark" text @click="deleteItemConfirm">Valider</v-btn>
                 <v-spacer></v-spacer>
               </v-card-actions>
             </v-card>
@@ -143,7 +143,7 @@
       </template>
       <template v-slot:no-data>
         <v-btn
-            color="primary"
+            color="Dark"
             @click="initialize"
         >
           Reset
